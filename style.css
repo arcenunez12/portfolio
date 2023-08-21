@@ -1,0 +1,216 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+.display-5 {
+    font-family: 'Sora', sans-serif;
+  }
+  
+  nav, h2, footer {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar {
+    /* --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65); */
+    --bs-navbar-color: #fafafa;
+    --bs-navbar-hover-color: #ff99b6DE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+  }
+  
+  i.bi-house-door {
+    transition-duration: 0.22s;
+  }
+  
+  i.bi-house-door:hover {
+    color: #ff99b6DE;
+  }
+  
+  .navbar-toggler {
+    background-color: white;
+  }
+  
+  
+  .hero-text {
+    min-height: 50vh;
+    /* border: red 5px solid; */
+  }
+  
+  
+  .bi-house-door {
+    color: #fafafa;
+    font-size: 30px;
+  }
+  
+  .bi-house-door:hover {
+    color: white;
+  }
+  
+  #hero-section {
+      background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+      url("img/purple-hero-image.jpeg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    padding: 20%;
+    text-align: center;
+    color: white;
+    /* min-height: 50vh; */
+  }
+  
+  h1 {
+    /* font-size: ; */
+    font-family: 'Sora', sans-serif;
+    font-size: clamp(1rem, 2.5vw, 4rem);
+    /* font-size: 85%; */
+  }
+  
+  
+  
+  .profile-pic {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+  
+    width: clamp(200px, 35vw, 250px);
+    height: clamp(200px, 30vh, 250px);
+    
+    border: 15px solid #DEC9E9;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  #footer-section {
+    text-align: center;
+    background-color: #6247AA;
+    color: white;
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    padding: 25px;
+  }
+  
+  .hero-text {
+    padding-top: 100px;
+  }
+  
+  
+  #mission-section img {
+    /* max-height: 95%;
+    max-width: 100%; */
+  
+    width: clamp(90%, 35vw, 100%);
+    height: clamp(90%, 35vh, 100%);
+    
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+    margin: 0;
+    /* border: black 5px solid; */
+  }
+  
+  #mission-section p {
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    /* margin-top: 3%; */
+    /* border: 5px red solid; */
+  }
+  
+  .mission-footer {
+    font-size: clamp(0.8rem, 2.5vw, 1rem);
+  }
+  
+  
+  #skills-section {
+    box-sizing: border-box;
+    background-color: #DEC9E9;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  
+  #skills-section img {
+    margin-bottom: 15px;
+    width: clamp(100px, 3vw, 300px);
+    height: clamp(100px, 3vh, 300px);
+  }
+  
+  
+  #skills-section p {
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  }
+  
+  #projects-section {
+    box-sizing: border-box;
+    background-color: #DEC9E9;
+    padding-bottom: clamp(1em, 1.5em, 2em);
+    padding-top: clamp(1em, 1.5em, 2em);
+    /* border: red 5px solid; */
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: clamp(30rem, 2.5vw, 50rem);
+    /* height: clamp(60vh, 80vh, 100vh); */
+    width: clamp(30rem, 2.5vw, 50rem);
+    /* width: clamp(5vw. 10vw, 15vw); */
+    /* height: clamp(40rem, 12vh, 60rem); */
+    /* width: clamp(.5em, 45em, 50em); */
+    /* width: auto; */
+    /* border: purple 5px solid; */
+  }
+  
+  /* .carousel-item {
+    width: clamp(30rem, 2.5vw, 50rem);
+  } */
+  
+  
+  .carousel-inner {
+      border-radius: 25px;
+      background-color: rgba(0,0,0,0);
+      overflow: hidden;
+  }
+  
+  .carousel-caption p {
+    /* font-size: clamp(.3em, .55em, 1em); */
+    font-size: clamp(.3em, 2.4vw, 1em);
+  }
+  
+  
+  
+  .carousel-item:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  .carousel-caption {
+    z-index: 1;
+  }
+  
+  #contact-section {
+    padding: 30px;
+  }
+  
+  #contact-section i {
+    font-size: clamp(3rem, 5vw, 10rem);
+    color: #815AC0;
+    transition-duration: 0.22s;
+  }
+  
+  
+  #contact-section i:hover {
+    color: #C19EE0;
+  }
+  
+  /* .contact-logo i {
+    max-width: 85%;
+    max-height: 85%;
+    width: 20px;
+    height: 20px;
+    border: red 5px solid;
+  } */
+  
