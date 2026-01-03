@@ -1,0 +1,173 @@
+#landing-page {
+    background: #3E5C76;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px;
+    color: #F0EBD8 !important;
+    /* justify-content: center;
+    align-items: center;
+    color: white; */
+}
+
+/* #landing-page div {
+    flex: 1;
+} */
+
+/* .landing-section {
+    flex: 1;
+} */
+.avatar {
+    width: 20vw;
+    height: 50vh;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    background: linear-gradient(to right, #52B69A, #D9ED92) border-box;  
+}
+
+.landing-section-1 {
+    flex: 1 1 auto;
+}
+
+.landing-section-2 {
+    flex: 1 1 auto;
+}
+
+#landing-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    #landing-page {
+        flex-direction: column;
+    }
+    .avatar {
+        height: 300px;
+        width: 250px;
+    }
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+}
+
+.skills-container div {
+    padding: 10px;
+}
+
+#skills-header {
+    padding-top: 10px;
+}
+
+.skills-container-1 {
+    background-color: #34A0A4;
+    color: #F0EBD8 !important;
+    height: 100%;
+}
+
+.skills-card {
+    /* border: red 2px solid; */
+    display: flex;
+    /* transition css property is a shorthand property for transition-property,
+    transtion-duration, transition-timing-function, transition-delay, and
+    transition-behavior.
+    Transitions enable you to define the transition between two states of
+    an element. Different states may be defined using pseudo-classes like
+    :hover and :active or dynamically set using JavaScript */
+    /* transitions: property-name | duration | easing function */
+    /* Here we applied two properties due to having a comma */
+    /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
+
+    /* align-items: stretch; */
+}
+
+/* .skills-card::before {
+    content: '';
+    background: linear-gradient(to right, lightgreen, hotpink);
+    filter: blur(10px);
+} */
+
+
+.card {
+    background-color: #F0EBD8;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px 8px #D9ED92;
+    /* box-shadow: 10px 10px 10px rgba(217, 237, 146, 0.2); */
+}
+
+.card-body {
+    color: #184E77
+}
+
+.card-img {
+    margin-bottom: 15px !important;
+    max-width: 50%;
+    max-height: 55%;
+    /* width: clamp(100px, 3vw, 300px) !important;
+    height: clamp(100px, 3vh, 300px) !important; */
+}
+
+.card {
+    align-items: center !important;
+    flex: 1 0 auto !important;
+}
+
+#contact-section {
+    background-color: #99D98C;
+    color: #184E77;
+    margin: 0;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    border: 2px red solid;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: clamp(3rem, 5vw, 10rem);
+}
+
+.contact-info i {
+    color: #34A0A4;
+    transition-duration: 0.22s;
+}
+
+.contact-info i:hover {
+    color: #184E77;
+}
+
+@media screen and (max-width: 600px) {
+    #contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info {
+        padding: 0px;
+    }
+}
+
